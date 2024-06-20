@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+
+}
+
+header{
+    background-color: #fff;
+    border: solid #000;
+    border-radius:0.5em;
+    display: flex;
+    height: 52px;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.izquierda{
+    border-right: solid #000;
+    display: flex;
+    height: 52px;
+    padding-right: 3em;
+}
+.izquierda img{
+    width: 50%;
+    height: auto;
+}
+.izquierda [type="text"]{
+    height: 2em;
+    padding: 0.5em;
+    margin: 1em;
+    box-sizing: border-box;
+}
+.icons{
+    align-items: center;
+    display: flex;
+}
+.icons img{
+    width: 4%;
+    height: auto;
+}
