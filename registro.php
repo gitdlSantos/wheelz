@@ -13,9 +13,9 @@ if ($conn->connect_error) {
 }
 
 // Obtener datos del formulario
-$name = $_POST['name_registro'];
-$email = $_POST['mail_registro'];
-$pass = password_hash($_POST['pass_registro'], PASSWORD_DEFAULT); // Encriptar la contraseña
+$name = $_POST['username'];
+$email = $_POST['email'];
+$pass = password_hash($_POST['password'], PASSWORD_DEFAULT); // Encriptar la contraseña
 
 // Preparar y bindear
 $stmt = $conn->prepare("INSERT INTO users (username, email, password) VALUES (?, ?, ?)");
