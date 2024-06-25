@@ -1,47 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Wheelz - Red Social Automotriz</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
     <header>
-        <div class="izquierda">
-            <img src="images/logo-png.png" alt="logo">
-            <input type="text" name="buscar" placeholder="Buscar">
-        </div>
-
-        <div class="icons">
-            <button class="icono">
-                <img src="images/house-svgrepo-com.svg" alt="inicio">
-            </button>
-
-            <button class="icono">
-                <img src="images/tool-01-svgrepo-com.svg" alt="tools">
-            </button>
-
-            <button class="icono">
-                <img src="images/flags-svgrepo-com.svg" alt="events">
-            </button>
-
-            <button class="icono">
-                <img src="images/heart-like-svgrepo-com.svg" alt="notifications">
-            </button>
-
-            <button class="icono">
-                <img src="images/messages-svgrepo-com.svg" alt="messages">
-            </button>
-
-            <button class="icono">
-                <img src="images/account-avatar-person-svgrepo-com.svg" alt="perfil">
-            </button>
-        </div>
-
+        <img src="images/logo-png.png" class="logo" alt="logo" >
+        <input type="text" placeholder="Buscar">
+        <nav>
+            <ul class="left-menu">
+                <li><a href="#"><img src="images/house-svgrepo-com.svg" alt="Inicio"></a></li>
+                <li><a href="#"><img src="images/tool-01-svgrepo-com.svg" alt="Configuración"></a></li>
+                <li><a href="#"><img src="images/flags-svgrepo-com.svg" alt="Eventos"></a></li>
+                <li><a href="#"><img src="images/heart-like-svgrepo-com.svg" alt="Me gusta"></a></li>
+            </ul>
+            <ul class="right-menu">
+                <li><a href="#"><img src="images/messages-svgrepo-com.svg" alt="Mensajes"></a></li>
+                <li><a href="#"><img src="images/account-avatar-person-svgrepo-com.svg" alt="Perfil"></a></li>
+            </ul>
+        </nav>
     </header>
+    <main>
+        <div class="post">
+            <div class="post-header">
+                <div class="profile-pic">ID_DEL_PERFIL</div>
+                <div class="report">!</div>
+            </div>
+            <div class="post-content">
+                <img src="https://www.chevrolet.com.uy/content/dam/chevrolet/south-america/uruguay/espanol/index/cars/2021-onix/colorizer/01-images/new-colorizer/ago-2022/colorizer-blanco.jpg?imwidth=960" alt="Publicación">
+            </div>
+            <div class="post-description">
+                <p>Descripción de la foto/Video</p>
+                <span class="date">Fecha</span>
+            </div>
+            <div class="post-footer">
+                <div class="actions">
+                    <img src="like_icon.png" alt="Me gusta">
+                    <img src="comment_icon.png" alt="Comentar">
+                    <img src="share_icon.png" alt="Compartir">
+                </div>
+            </div>
+        </div>
+        <!-- Más publicaciones aquí -->
+    </main>
 </body>
-
 </html>
