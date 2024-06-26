@@ -5,6 +5,13 @@ body {
     background-color: #f4f4f4;
   }
   
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
   header {
     display: flex;
     align-items: center;
@@ -15,17 +22,17 @@ body {
   
   .header-content {
     display: flex;
-    align-items: center;
   }
   
   header img {
-    display: flex;
     width: 5em;
     height: auto;
   }
   
   header input[type="text"] {
+    width: 150px;
     padding: 5px;
+    margin-left: 10px;
   }
   
   nav {
@@ -40,11 +47,19 @@ body {
     display: flex;
     align-items: center;
   }
-
-
-nav ul li {
+  
+  nav ul.left-menu {
+    margin-right: auto;
+    margin-left: 20px;
+  }
+  
+  nav ul.right-menu {
+    margin-left: auto;
+  }
+  
+  nav ul li {
     margin-right: 20px;
-}
+  }
 
 nav ul li a img {
     width: 24px;
@@ -59,7 +74,6 @@ main {
 }
 
 .post {
-    border-radius: 10px;
     width: 600px;
     background-color: white;
     border: 1px solid #ddd;
